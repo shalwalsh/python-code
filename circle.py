@@ -1,9 +1,12 @@
-import math #to use value of pi
-R = float(input("Please enter the radius of a circle:")) #this is where user will input their radius, i put float so it will work with decimals
-C = 2*R*math.pi #formula for circumfrence
-A = math.pi*R**2 #formula for area
-if R < 0: #if radius is negative
+#Program that calculates the circumfrence and area of a circle of a given radius
+#Will return Invalid Input if given a negative value
+
+import math
+Radius = float(input("Please enter the radius of a circle:"))
+Circumfrence = 2*R*math.pi 
+Area = math.pi*R**2 
+if R < 0: 
     print("Invalid input!")
-else: #so any other input will give results
-    print("A circle with radius", R, "has circumfrence", C, "and area", A) #output phrase
+else: 
+    print("A circle with radius", R, "has circumfrence", C, "and area", A)
     
