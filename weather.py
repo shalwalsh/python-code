@@ -1,3 +1,5 @@
+#Given three temperatures, this program outputs their maximum, minimum, and average
+
 temp_1 = float(input("Enter first sensor reading:")) #input formulas, with float so they can be decimals
 temp_2 = float(input("Enter second sensor reading:"))
 temp_3 = float(input("Enter third sensor reading:"))
