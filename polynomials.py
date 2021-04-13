@@ -1,3 +1,5 @@
+#Creates polynomials from user input and calculates first derivative
+
 def create():
     user_input = input("Enter polynomial:")
     polynomial = {}
